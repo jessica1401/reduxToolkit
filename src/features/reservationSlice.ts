@@ -3,7 +3,7 @@ interface RservationState {
     values: string[]
 }
 const initialState: RservationState = {
-    values: []
+    values: ['Jessica', 'Sanohit']
 }
 export const reservationsSlice = createSlice({
     name: "reservations",
